@@ -1,0 +1,132 @@
+---
+import MainLayout from "../../../../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Practice Dashboard">
+
+  <!-- HERO / HEADER -->
+  <section class="hero container">
+    <div class="hero-card">
+      <h1>Your Practice Dashboard</h1>
+      <p>
+        View your staffing requests, track candidate matches, and manage your
+        placement pipeline through the LS Nexus AI Staffing Platform.
+      </p>
+    </div>
+  </section>
+
+  <!-- PRACTICE SUMMARY -->
+  <section class="about-section container">
+    <h2 class="section-title">Practice Overview</h2>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Practice Name</h3>
+        <p>Hanford Dental Group</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Location</h3>
+        <p>Hanford, CA</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Active Staffing Requests</h3>
+        <p>2 Open Roles</p>
+      </div>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/practice" class="btn-secondary">Edit Practice Profile</a>
+    </div>
+  </section>
+
+  <!-- ROLE STATUS -->
+  <section class="about-section container">
+    <h2 class="section-title">Open Roles</h2>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Dental Assistant (DA)</h3>
+        <p>3 Candidates Matched</p>
+        <p>1 Pending Review</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Front Office / Reception</h3>
+        <p>2 Candidates Matched</p>
+        <p>No pending reviews</p>
+      </div>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/practice" class="btn-primary">Add New Role</a>
+    </div>
+  </section>
+
+  <!-- MATCH STATUS -->
+  <section class="about-section container">
+    <h2 class="section-title">Candidate Pipeline</h2>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>High‑Alignment Candidates</h3>
+        <p>4 Candidates</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Pending Interviews</h3>
+        <p>1 Candidate</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Awaiting Practice Review</h3>
+        <p>2 Candidates</p>
+      </div>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/matches" class="btn-primary">View Matches</a>
+    </div>
+  </section>
+
+  <!-- RECOMMENDED CANDIDATES -->
+  <section class="about-section container">
+    <h2 class="section-title">Recommended Candidates</h2>
+
+    <ul class="service-checklist">
+      <li>✔ DA — 4 Years Experience — Hanford, CA</li>
+      <li>✔ Reception — 2 Years Experience — Visalia, CA</li>
+      <li>✔ DA — 1 Year Experience — Lemoore, CA</li>
+    </ul>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/staffing" class="btn-secondary">Explore More Candidates</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h2>Your Next Step</h2>
+    <p>
+      LS Nexus will continue analyzing your staffing needs and updating your
+      candidate matches as new profiles become available.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/matches" class="btn-primary">Go to Matches</a>
+      <a href="/ls-nexus" class="btn-secondary">Back to Platform Home</a>
+    </div>
+  </section>
+
+</MainLayout>

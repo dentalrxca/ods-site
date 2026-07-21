@@ -1,8 +1,59 @@
 ---
-import Layout from "../components/Layout.astro";
+import MainLayout from '../layouts/MainLayout.astro';
 ---
 
-<Layout title="Optimal Dental Solutions">
-  <h1>Optimal Dental Solutions</h1>
-  <p>Operations. Staffing. Automation. Excellence.</p>
-</Layout>
+<MainLayout title="Home">
+
+  <section class="hero container">
+
+    <div class="hero-card">
+      <h1>Operational Clarity for Modern Dental Practices</h1>
+      <p>
+        Optimal Dental Solutions helps dental practices build systems that reduce stress,
+        improve efficiency, and elevate patient care.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="/services" class="btn-primary">Explore Services</a>
+        <a href="/contact" class="btn-secondary">Schedule a Consultation</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="/assets/meeting-room.jpeg" alt="ODS Meeting Table" />
+    </div>
+
+  </section>
+
+  <section class="value-grid container">
+  <div class="value-card">
+    <h3>Operational Systems</h3>
+    <p>Streamlined workflows, optimized scheduling, and efficient practice management.</p>
+  </div>
+
+  <div class="value-card">
+    <h3>Leadership Development</h3>
+    <p>Empowering clinical and administrative teams with clarity and confidence.</p>
+  </div>
+
+  <div class="value-card">
+    <h3>Growth Strategy</h3>
+    <p>Long‑term planning, scalable systems, and sustainable practice expansion.</p>
+  </div>
+</section>
+
+<section class="cta container">
+  <h2>Ready to Transform Your Practice?</h2>
+  <p>
+    Whether you're refining operations, improving team communication, or preparing for growth,
+    ODS provides the structure and support you need.
+  </p>
+
+  <div class="cta-buttons">
+    <a href="/contact" class="btn-primary">Get Started</a>
+    <a href="/contact" class="btn-secondary">Book a Consultation</a>
+  </div>
+</section>
+
+
+</MainLayout>

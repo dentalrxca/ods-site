@@ -1,0 +1,109 @@
+---
+import MainLayout from "../../../layouts/MainLayout.astro";
+---
+
+<MainLayout title="LS Nexus — Practice Intake">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-card">
+      <h1>Submit Your Practice Staffing Requirements</h1>
+      <p>
+        LS Nexus uses your practice profile to match you with qualified candidates
+        aligned to your operational needs, culture, and long‑term goals.
+      </p>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="about-section container">
+    <h2 class="section-title">Practice Information</h2>
+    <p>
+      Please complete the form below. The more detail you provide, the more accurate
+      and effective your LS Nexus matches will be.
+    </p>
+  </section>
+
+  <!-- PRACTICE FORM -->
+  <section class="about-section container">
+    <form class="contact-form">
+
+      <!-- PRACTICE DETAILS -->
+      <input type="text" placeholder="Practice Name" required />
+      <input type="text" placeholder="City / Region" required />
+      <input type="text" placeholder="Contact Person" required />
+      <input type="email" placeholder="Contact Email" required />
+      <input type="text" placeholder="Contact Phone" required />
+
+      <!-- ROLE NEEDED -->
+      <select required>
+        <option value="">Role Needed</option>
+        <option>Front Office / Reception</option>
+        <option>Treatment Coordinator</option>
+        <option>Office Manager</option>
+        <option>Dental Assistant (DA)</option>
+        <option>Registered Dental Assistant (RDA)</option>
+        <option>Registered Dental Hygienist (RDH)</option>
+        <option>Associate Dentist</option>
+        <option>Specialty Assistant</option>
+      </select>
+
+      <!-- EXPERIENCE REQUIREMENTS -->
+      <select required>
+        <option value="">Experience Required</option>
+        <option>Entry Level</option>
+        <option>1–2 Years</option>
+        <option>3–5 Years</option>
+        <option>5+ Years</option>
+      </select>
+
+      <!-- SCHEDULE -->
+      <select required>
+        <option value="">Schedule Needed</option>
+        <option>Full‑Time</option>
+        <option>Part‑Time</option>
+        <option>Temporary / Fill‑In</option>
+      </select>
+
+      <!-- CULTURE -->
+      <textarea
+        placeholder="Describe your office culture (pace, communication style, team dynamics)"
+        rows="5"
+      ></textarea>
+
+      <!-- SOFTWARE -->
+      <textarea
+        placeholder="List software used (Dentrix, Eaglesoft, Open Dental, etc.)"
+        rows="4"
+      ></textarea>
+
+      <!-- PAY RANGE -->
+      <input type="text" placeholder="Pay Range (optional)" />
+
+      <!-- NOTES -->
+      <textarea
+        placeholder="Additional notes or requirements"
+        rows="5"
+      ></textarea>
+
+      <!-- SUBMIT -->
+      <button class="btn-primary" type="submit">Submit Practice Profile</button>
+
+    </form>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h2>Ready to Start Matching?</h2>
+    <p>
+      Once your practice profile is submitted, LS Nexus will begin analyzing your
+      requirements and identifying high‑alignment candidates.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus" class="btn-primary">Back to LS Nexus</a>
+      <a href="/staffing" class="btn-secondary">Explore Staffing Services</a>
+    </div>
+  </section>
+
+</MainLayout>

@@ -1,0 +1,101 @@
+---
+import MainLayout from "../../../layouts/MainLayout.astro";
+---
+
+<MainLayout title="LS Nexus — Matches">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-card">
+      <h1>AI Match Results</h1>
+      <p>
+        LS Nexus analyzes candidate profiles and practice requirements to generate
+        high‑alignment matches based on skills, experience, culture fit, and long‑term
+        stability indicators.
+      </p>
+    </div>
+  </section>
+
+  <!-- MATCH SUMMARY -->
+  <section class="about-section container">
+    <h2 class="section-title">Match Overview</h2>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>High‑Alignment Matches</h3>
+        <p>4 Matches Found</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Pending Practice Review</h3>
+        <p>2 Matches</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Pending Candidate Review</h3>
+        <p>1 Match</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATCH LIST -->
+  <section class="about-section container">
+    <h2 class="section-title">Match Details</h2>
+
+    <!-- MATCH CARD 1 -->
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>DA — Hanford Dental Group</h3>
+        <p><strong>Match Score:</strong> 92%</p>
+        <p><strong>Experience Alignment:</strong> High</p>
+        <p><strong>Culture Fit:</strong> Strong</p>
+        <p><strong>Schedule Fit:</strong> Full‑Time</p>
+      </div>
+    </div>
+
+    <!-- MATCH CARD 2 -->
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Reception — Valley Smiles</h3>
+        <p><strong>Match Score:</strong> 88%</p>
+        <p><strong>Experience Alignment:</strong> Medium</p>
+        <p><strong>Culture Fit:</strong> Strong</p>
+        <p><strong>Schedule Fit:</strong> Full‑Time</p>
+      </div>
+    </div>
+
+    <!-- MATCH CARD 3 -->
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>DA — Lemoore Dental Care</h3>
+        <p><strong>Match Score:</strong> 84%</p>
+        <p><strong>Experience Alignment:</strong> High</p>
+        <p><strong>Culture Fit:</strong> Medium</p>
+        <p><strong>Schedule Fit:</strong> Part‑Time</p>
+      </div>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/candidate/dashboard" class="btn-secondary">Back to Candidate Dashboard</a>
+      <a href="/ls-nexus/practice/dashboard" class="btn-secondary">Back to Practice Dashboard</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h2>AI Matching Updates Automatically</h2>
+    <p>
+      LS Nexus continuously analyzes new candidate profiles and practice requirements
+      to update match scores and recommendations in real time.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus" class="btn-primary">Return to Platform Home</a>
+    </div>
+  </section>
+
+</MainLayout>

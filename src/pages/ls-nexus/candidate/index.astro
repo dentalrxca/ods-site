@@ -1,0 +1,93 @@
+---
+import MainLayout from "../../../layouts/MainLayout.astro";
+---
+
+<MainLayout title="LS Nexus — Candidate Profile">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-card">
+      <h1>Create Your LS Nexus Candidate Profile</h1>
+      <p>
+        Tell us about your experience, skills, schedule, and work style.  
+        LS Nexus uses this information to match you with dental practices  
+        where you can thrive long‑term.
+      </p>
+    </div>
+  </section>
+
+  <!-- FORM INTRO -->
+  <section class="about-section container">
+    <h2 class="section-title">Candidate Information</h2>
+    <p>
+      Please complete the form below. The more accurate your profile,  
+      the better LS Nexus can match you with the right practice.
+    </p>
+  </section>
+
+  <!-- CANDIDATE FORM -->
+  <section class="about-section container">
+    <form class="contact-form">
+
+      <!-- BASIC INFO -->
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="text" placeholder="Phone Number" required />
+
+      <!-- ROLE -->
+      <select required>
+        <option value="">Select Your Role</option>
+        <option>Front Office / Reception</option>
+        <option>Treatment Coordinator</option>
+        <option>Office Manager</option>
+        <option>Dental Assistant (DA)</option>
+        <option>Registered Dental Assistant (RDA)</option>
+        <option>Registered Dental Hygienist (RDH)</option>
+        <option>Associate Dentist</option>
+        <option>Specialty Assistant</option>
+      </select>
+
+      <!-- EXPERIENCE -->
+      <input type="text" placeholder="Years of Experience" required />
+
+      <!-- SKILLS -->
+      <textarea placeholder="List your key skills (charting, scheduling, communication, software, etc.)" rows="5"></textarea>
+
+      <!-- SCHEDULE -->
+      <select required>
+        <option value="">Preferred Schedule</option>
+        <option>Full‑Time</option>
+        <option>Part‑Time</option>
+        <option>Temporary / Fill‑In</option>
+      </select>
+
+      <!-- WORK STYLE -->
+      <textarea placeholder="Describe your work style (communication, pace, teamwork, etc.)" rows="5"></textarea>
+
+      <!-- LOCATION -->
+      <input type="text" placeholder="Preferred City / Region" required />
+
+      <!-- RESUME -->
+      <input type="file" />
+
+      <!-- SUBMIT -->
+      <button class="btn-primary" type="submit">Submit Profile</button>
+
+    </form>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h2>Ready to Join LS Nexus?</h2>
+    <p>
+      Once your profile is submitted, our team will review your information  
+      and begin matching you with practices aligned to your skills and goals.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus" class="btn-primary">Back to LS Nexus</a>
+      <a href="/staffing" class="btn-secondary">Explore Staffing</a>
+    </div>
+  </section>
+
+</MainLayout>

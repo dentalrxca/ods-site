@@ -1,4 +1,84 @@
-<main>
-  <h1>About Optimal Dental Solutions</h1>
-  <p>Learn more about our practice and our commitment to your smile.</p>
-</main>
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+---
+
+<MainLayout title="About ODS">
+
+  <!-- HERO ABOUT -->
+  <section class="hero container">
+    <div class="hero-card">
+      <h1>About Optimal Dental Solutions</h1>
+      <p>
+        We help dental practices build clarity, structure, and operational excellence —
+        so teams thrive and patients receive the highest level of care.
+      </p>
+    </div>
+  </section>
+
+  <!-- OUR STORY -->
+  <section class="about-section container">
+    <h2 class="section-title">Our Story</h2>
+    <p>
+      Optimal Dental Solutions was founded with a simple mission: to bring clarity,
+      structure, and confidence to dental practices. After years of working with
+      offices across California, we saw a pattern — practices weren’t struggling
+      because of clinical skill, but because of operational gaps, unclear systems,
+      and overwhelmed teams.
+    </p>
+    <p>
+      ODS was created to solve those problems. Today, we partner with practices to
+      build sustainable systems, empower leadership, and create environments where
+      teams feel supported and patients feel valued.
+    </p>
+  </section>
+
+  <!-- OUR VALUES -->
+  <section class="value-grid container">
+    <div class="value-card">
+      <h3>Clarity</h3>
+      <p>Clear systems and expectations reduce stress and improve team performance.</p>
+    </div>
+
+    <div class="value-card">
+      <h3>Leadership</h3>
+      <p>Strong leadership creates confident teams and consistent patient experiences.</p>
+    </div>
+
+    <div class="value-card">
+      <h3>Growth</h3>
+      <p>We help practices scale sustainably with long‑term operational strategy.</p>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP -->
+  <section class="about-section container">
+    <h2 class="section-title">Leadership</h2>
+
+    <div class="leader-card">
+      <img src="/assets/seerat-sandhu.jpeg" alt="Dr. Seerat Sandhu" />
+      <div class="leader-info">
+        <h3>Dr. Seerat Sandhu, DDS</h3>
+        <p>
+          Clinical Director at Optimal Dental Solutions. Dr. Sandhu brings years of
+          clinical expertise, leadership experience, and a passion for helping dental
+          teams operate at their highest potential.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h2>Ready to Strengthen Your Practice?</h2>
+    <p>
+      Whether you're refining operations, improving team communication, or preparing
+      for growth, ODS provides the structure and support you need.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="/contact" class="btn-primary">Get Started</a>
+      <a href="/contact" class="btn-secondary">Book a Consultation</a>
+    </div>
+  </section>
+
+</MainLayout>

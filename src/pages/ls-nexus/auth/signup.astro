@@ -1,0 +1,38 @@
+---
+import MainLayout from "../../../../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Create Account — LS Nexus">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-card">
+      <h1>Create Your LS Nexus Account</h1>
+      <p>Access your dashboard, matches, and personalized staffing tools.</p>
+    </div>
+  </section>
+
+  <!-- SIGNUP FORM -->
+  <section class="about-section container">
+    <h2 class="section-title">Create Account</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="password" placeholder="Password" required />
+
+      <button class="btn-primary" type="submit">Create Account</button>
+    </form>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h2>Already have an account?</h2>
+    <p>Sign in to access your dashboard.</p>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/auth/login" class="btn-secondary">Sign In</a>
+    </div>
+  </section>
+
+</MainLayout>

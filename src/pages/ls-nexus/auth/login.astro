@@ -1,0 +1,41 @@
+---
+import MainLayout from "../../../../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Login — LS Nexus">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-card">
+      <h1>Welcome Back</h1>
+      <p>Sign in to access your LS Nexus dashboard and match results.</p>
+    </div>
+  </section>
+
+  <!-- LOGIN FORM -->
+  <section class="about-section container">
+    <h2 class="section-title">Login</h2>
+
+    <form class="contact-form">
+      <input type="email" placeholder="Email Address" required />
+      <input type="password" placeholder="Password" required />
+
+      <button class="btn-primary" type="submit">Sign In</button>
+
+      <div style="margin-top: 1rem;">
+        <a href="/ls-nexus/auth/reset" class="btn-secondary">Forgot Password?</a>
+      </div>
+    </form>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h2>New to LS Nexus?</h2>
+    <p>Create an account to access your dashboard and personalized matches.</p>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/auth/signup" class="btn-primary">Create Account</a>
+    </div>
+  </section>
+
+</MainLayout>

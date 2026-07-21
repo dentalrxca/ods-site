@@ -2,9 +2,78 @@
 import MainLayout from "../../layouts/MainLayout.astro";
 ---
 
-<MainLayout title="Contact Optimal Dental Solutions">
-  <main>
-    <h1>Contact Us</h1>
-    <p>Reach out to our team for appointments or questions.</p>
-  </main>
+<MainLayout title="Contact ODS">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-card">
+      <h1>Contact Optimal Dental Solutions</h1>
+      <p>
+        We’re here to help your practice strengthen operations, improve team
+        communication, and build long‑term stability. Reach out anytime.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT OPTIONS -->
+<section class="about-section container">
+  <h2 class="section-title">Get in Touch</h2>
+
+  <div class="leader-card">
+    <div class="leader-info">
+      <h3>Phone</h3>
+      <p>888‑973‑3521</p>
+    </div>
+  </div>
+
+  <div class="leader-card">
+    <div class="leader-info">
+      <h3>Fax</h3>
+      <p>661‑262‑4081</p>
+    </div>
+  </div>
+
+  <div class="leader-card">
+    <div class="leader-info">
+      <h3>Email</h3>
+      <p>support@optimaldentalsolutions.com</p>
+    </div>
+  </div>
+
+  <div class="leader-card">
+    <div class="leader-info">
+      <h3>Office</h3>
+      <p>Hanford, California</p>
+    </div>
+  </div>
+</section>
+
+  <!-- CONSULTATION FORM -->
+  <section class="about-section container">
+    <h2 class="section-title">Request a Consultation</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Practice Name" />
+      <textarea placeholder="How can we help your practice?" rows="6"></textarea>
+
+      <button class="btn-primary" type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h2>Ready to Strengthen Your Practice?</h2>
+    <p>
+      Whether you're refining operations, improving team communication, or preparing
+      for growth, ODS provides the structure and support you need.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="/services" class="btn-primary">Explore Services</a>
+      <a href="/about" class="btn-secondary">Learn More About ODS</a>
+    </div>
+  </section>
+
 </MainLayout>

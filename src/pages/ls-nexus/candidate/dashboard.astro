@@ -1,0 +1,114 @@
+---
+import MainLayout from "../../../../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Candidate Dashboard">
+
+  <!-- HERO / HEADER -->
+  <section class="hero container">
+    <div class="hero-card">
+      <h1>Your LS Nexus Dashboard</h1>
+      <p>
+        View your profile, track your matches, and explore recommended roles based
+        on your skills, experience, and work style.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROFILE SUMMARY -->
+  <section class="about-section container">
+    <h2 class="section-title">Your Profile</h2>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Profile Status</h3>
+        <p>✔ Completed</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Role</h3>
+        <p>Dental Assistant (DA)</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Experience</h3>
+        <p>3–5 Years</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Preferred Schedule</h3>
+        <p>Full‑Time</p>
+      </div>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/candidate" class="btn-secondary">Edit Profile</a>
+    </div>
+  </section>
+
+  <!-- MATCH STATUS -->
+  <section class="about-section container">
+    <h2 class="section-title">Match Status</h2>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Current Matches</h3>
+        <p>2 High‑Alignment Matches</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Pending Review</h3>
+        <p>1 Practice Reviewing Your Profile</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="leader-info">
+        <h3>Interview Requests</h3>
+        <p>No pending interviews</p>
+      </div>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/matches" class="btn-primary">View Matches</a>
+    </div>
+  </section>
+
+  <!-- RECOMMENDED ROLES -->
+  <section class="about-section container">
+    <h2 class="section-title">Recommended Roles</h2>
+
+    <ul class="service-checklist">
+      <li>✔ DA — Full‑Time — Hanford, CA</li>
+      <li>✔ DA — Full‑Time — Visalia, CA</li>
+      <li>✔ DA — Part‑Time — Lemoore, CA</li>
+    </ul>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/staffing" class="btn-secondary">Explore More Roles</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h2>Your Next Step</h2>
+    <p>
+      LS Nexus will continue analyzing your profile and updating your matches as
+      new opportunities become available.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="/ls-nexus/matches" class="btn-primary">Go to Matches</a>
+      <a href="/ls-nexus" class="btn-secondary">Back to Platform Home</a>
+    </div>
+  </section>
+
+</MainLayout>
